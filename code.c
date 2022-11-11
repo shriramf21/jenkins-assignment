@@ -1,8 +1,7 @@
 #include<stdio.h>
 
 int main(){
-	int n, m; 
-	scanf("%d%d", &n, &m);
+	int n = 10, m = 20; 
 	if(n!=m){
 		if(n > m)
 			printf("%d is greater than %d\n", n, m);
