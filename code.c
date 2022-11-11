@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main(){
 	int n = 20, m = 10; 
 	if(n!=m){
