@@ -9,6 +9,8 @@ int main(){
 		else
 			printf("%d is greater than %d\n", m, n);
 	}
+	else
+		printf("equal numbers");
 	return 0;
 
 
