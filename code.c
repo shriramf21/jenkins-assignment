@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-	int n = 10, m = 10; 
+	int n = 10, m = 12; 
 	if(n!=m){
 		if(n > m)
 			printf("%d is greater than %d\n", n, m);
