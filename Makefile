@@ -1,6 +1,6 @@
 OBJS = main
 CFLAG = -Wall 
-CC = gcc 
+CC = gcc
 
 code:${OBJ}
 	${CC} code.c ${CFLAG} -o ${OBJS} 

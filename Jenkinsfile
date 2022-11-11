@@ -1,11 +1,12 @@
 pipeline{
     agent any
-    stages{
-        stage('Clean'){
-            sh 'make clean'
-        }
+    stages {
         stage('Build'){
-            sh 'make code'
+            steps{
+                echo 'Building Makefile'
+                sh 'make code'
+                sh './main'
+            }
         }
     }
 }
